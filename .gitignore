@@ -1,0 +1,64 @@
+# ----------------
+# Python
+# ----------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.joblib
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# ----------------
+# Data & Models
+# ----------------
+# Local datasets
+data/
+dataset/
+*.csv
+*.json
+*.npy
+*.npz
+
+# ML models
+*.h5
+*.hdf5
+*.pkl
+*.onnx
+*.tflite
+
+# ----------------
+# Databases
+# ----------------
+*.db
+*.sqlite
+*.sqlite3
+
+# ----------------
+# Logs & Outputs
+# ----------------
+*.log
+logs/
+output/*.txt
+output/*.csv
+
+# ----------------
+# OS Files
+# ----------------
+.DS_Store
+Thumbs.db
+
+# ----------------
+# IDE & Editors
+# ----------------
+.vscode/
+.idea/
+*.swp
+*.swo
